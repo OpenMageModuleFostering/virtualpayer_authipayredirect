@@ -1,0 +1,21 @@
+<layout version="0.1.0">
+	<authipayredirect_redirect_success>
+		<reference name="root">
+			<action method="setTemplate"><template>page/1column.phtml</template></action>
+		</reference>
+	
+		<reference name="content">
+			<block type="core/template" name="authipayredirect.redirect.success" template="authipayredirect/redirect/success.phtml" />
+		</reference>
+	</authipayredirect_redirect_success>
+	
+	<authipayredirect_redirect_failure>
+		<reference name="root">
+			<action method="setTemplate"><template>page/1column.phtml</template></action>
+		</reference>
+
+		<reference name="content">
+			<block type="core/template" name="authipayredirect.redirect.failure" template="authipayredirect/redirect/failure.phtml" />
+		</reference>				
+	</authipayredirect_redirect_failure>
+</layout>

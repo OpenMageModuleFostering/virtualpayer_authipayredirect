@@ -1,0 +1,16 @@
+{
+    "name": "OpenMageModuleFostering/VirtualPayer_AuthipayRedirect",
+    "type": "magento-module",
+    "license": "Open-Software-License-(OSL)",
+    "homepage": "",
+    "description": "Allied Irish Banks Merchant Services (AIBMS) Authipay Redirect module. This module redirects customers to the Authipay secured hosted payment pages.",
+    "authors": [
+    {
+        "name": "VirtualPayer",
+        "email": "support@virtualpayer.com"
+    }
+],
+    "suggest": {
+        "magento-hackathon/magento-composer-installer": "*"
+    }
+}

@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<layout version="0.1.0">
+    <authipayredirect_adminhtml_authipayredirect_index>
+        <reference name="content">
+            <block type="authipayredirect/adminhtml_authipayredirect" name="authipayredirect" />
+        </reference>
+    </authipayredirect_adminhtml_authipayredirect_index>
+</layout>

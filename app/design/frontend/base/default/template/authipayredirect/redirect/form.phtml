@@ -1,0 +1,13 @@
+<?php
+
+?>
+<fieldset class="form-list">
+    <?php $_code=$this->getMethodCode() ?>
+    
+    <?php $redirect = Mage::getModel('authipayredirect/redirect'); ?>
+     <ul id="payment_form_<?php echo $_code ?>" style="display:none">
+        <li>
+            <?php echo $this->__('You will be redirected to Authipay secured hosted pages.') ?>
+        </li>
+    </ul>
+</fieldset>

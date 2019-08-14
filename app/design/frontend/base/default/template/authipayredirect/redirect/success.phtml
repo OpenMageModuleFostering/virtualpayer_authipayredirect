@@ -1,0 +1,9 @@
+<?php
+
+	$block = Mage::app()->getLayout()->createBlock('cms/block')->setBlockId('authipayredirect_success');	
+
+	$html = Mage::helper('authipayredirect')->getCustomerMessage($block, Mage::getModel('sales/order')->loadByIncrementId(Mage::getSingleton('checkout/session')->getLastRealOrderId()), Mage::getModel('authipayredirect/authipayredirect')->getCollection()->addFieldToFilter('order_id', Mage::getSingleton('checkout/session')->getLastRealOrderId())->getFirstItem());
+
+	echo $html;
+	
+?>
