@@ -1,7 +1,7 @@
 {
-    "name": "OpenMageModuleFostering\/VirtualPayer_AuthipayRedirect",
+    "name": "openmage-module-fostering\/virtualpayer_authipayredirect",
     "type": "magento-module",
-    "license": "Open-Software-License",
+    "license": "OSL-3.0",
     "homepage": "",
     "description": "Customer can now redirect to Magento success and failure pages",
     "authors": [
