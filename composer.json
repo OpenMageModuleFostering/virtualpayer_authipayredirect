@@ -1,16 +1,19 @@
 {
-    "name": "OpenMageModuleFostering/VirtualPayer_AuthipayRedirect",
+    "name": "OpenMageModuleFostering\/VirtualPayer_AuthipayRedirect",
     "type": "magento-module",
     "license": "Open-Software-License",
     "homepage": "",
     "description": "Customer can now redirect to Magento success and failure pages",
     "authors": [
-    {
-        "name": "VirtualPayer",
-        "email": "support@virtualpayer.com"
-    }
-],
+        {
+            "name": "VirtualPayer",
+            "email": "support@virtualpayer.com"
+        }
+    ],
     "suggest": {
-        "magento-hackathon/magento-composer-installer": "*"
-    }
+        "magento-hackathon\/magento-composer-installer": "*"
+    },
+    "keywords": [
+        "openmage-module"
+    ]
 }
